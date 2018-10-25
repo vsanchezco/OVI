@@ -1,0 +1,78 @@
+/* 
+    Document   : estilo
+    Created on : 29-ago-2013, 20:49:29
+    Author     : Ivan Salas Corrales <http://programandoointentandolo.com/>
+    Description:
+        Hoja de estilos basica para ver el uso de los templates en JSF.
+*/
+
+body{
+    background: url("../img/fondo.png");
+}
+
+#cabecera {
+    color: #2E5E90;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    margin: 10px 0 0;
+    padding: 10px;
+    background: #FFA800;
+    box-shadow: 0 2px 2px 2px #2E5E90;
+}
+
+#pie {
+    clear: left;
+    color: #2E5E90;
+    text-align: center;
+    padding: 10px;
+    background: #FFA800;
+    box-shadow: 0 -2px 2px 2px #2E5E90;
+}
+
+#pie a, #pie a:visited {
+    text-decoration: none;
+    color: #2E5E90;
+}
+#pie a:hover {
+    color: #fff;
+}
+
+
+
+.contenido{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    /*background: #386695;*/
+    margin: 5px 0;
+}
+
+#menu {
+    float: left;
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    margin: 2px;
+}
+
+#menu a, #menu a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    display: block;
+    padding: 0 10px;
+    background: #3770A3;
+    border: 2px solid #2E5E90;
+}
+
+#menu a:hover {
+    color: #FFA200; 
+}

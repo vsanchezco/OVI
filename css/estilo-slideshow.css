@@ -1,0 +1,45 @@
+.contenedor {
+	width: 600px;
+	height: 200px;
+	position: relative;
+	margin: 100px auto;
+	background: #ccc;
+	border: 2px solid #555;
+	overflow: hidden;
+	border: 2px solid #FFA800;
+	border-radius: 10px;
+	box-shadow: 0 0 4px #FFA800;
+}
+
+.contenedor:hover .info{
+    color: #FFA800;
+    box-shadow: 0 0 1px 1px #FFA800;
+}
+.slide{
+	width: 600px;
+	position: absolute;
+}
+
+img {
+	width: 600px;
+	height: 200px;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 160px;
+	background: rgba(80, 80, 180, 0.5);
+	border-bottom: 1px solid #FFA800;
+    border-top: 1px solid #FFA800;
+	height: 20px;
+	width: 100%;
+	padding: 5px 0;
+	transition: color 1s;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
