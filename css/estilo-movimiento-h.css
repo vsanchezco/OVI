@@ -1,0 +1,72 @@
+/* 
+    Document:       estilo.css    
+    Autor:          Virley Sánchez Córdoba
+    Description:    Hoja de estilos basica para el OVI
+*/
+
+
+.presentacion {
+        width: 600px;
+        height: 200px;
+        position: relative;
+        margin: 10px auto;
+        background: #ccc;
+        border: 2px solid #FFA800;
+        border-radius: 10px;
+        box-shadow: 0 0 4px #FFA800;
+        overflow: hidden;        
+}
+
+.contenedor{        
+        position: relative;
+        height: 200px;
+        word-spacing: -1em;
+}
+
+.contenedor:hover .info{
+    color: #FFA800;
+    box-shadow: 0 0 1px 1px #FFA800;
+}
+
+.horizontal {
+        left: -600px;
+        width: 4800px;
+}
+
+.horizontal .slide {
+        display: inline-block;
+}
+
+.slide{
+        width: 600px;
+        height: 200px;
+        position: relative;      
+}
+
+
+img {
+        width: 600px;
+        height: 200px;
+        position: relative;
+}
+
+.infoslide {
+        position: absolute;
+        top: 160px;
+        background: rgba(80, 80, 180, 0.5);
+        border-bottom: 1px solid #FFA800;
+        border-top: 1px solid #FFA800;
+        height: 20px;
+        width: 100%;
+        padding: 5px 0;
+        transition: color 1s;
+        word-spacing: 0;
+}
+
+
+a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+}
+

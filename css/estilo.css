@@ -1,78 +1,129 @@
 /* 
-    Document   : estilo
-    Created on : 29-ago-2013, 20:49:29
-    Author     : Ivan Salas Corrales <http://programandoointentandolo.com/>
-    Description:
-        Hoja de estilos basica para ver el uso de los templates en JSF.
+    Document:       estilo.css    
+    Autor:          Virley Sánchez Córdoba
+    Description:    Hoja de estilos basica para el OVI
 */
 
 body{
-    background: url("../img/fondo.png");
+    background-color:#000000;    
 }
 
-#cabecera {
-    color: #2E5E90;
-    text-shadow: 1px 1px 2px #000;
-    text-align: center;
-    margin: 10px 0 0;
-    padding: 10px;
-    background: #FFA800;
-    box-shadow: 0 2px 2px 2px #2E5E90;
+#cabecera{
+        background-color:#808000;
+        width: 100%;
+        height:100%;
+        /*-moz-border-radius: 15px; */
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #888;
 }
 
-#pie {
-    clear: left;
-    color: #2E5E90;
-    text-align: center;
-    padding: 10px;
-    background: #FFA800;
-    box-shadow: 0 -2px 2px 2px #2E5E90;
+#titulocabecera{
+        text-align: center;
 }
 
-#pie a, #pie a:visited {
-    text-decoration: none;
-    color: #2E5E90;
-}
-#pie a:hover {
-    color: #fff;
-}
-
-
-
-.contenido{
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-    /*background: #386695;*/
-    margin: 5px 0;
+#logo{
+        /*background-image: url("img/logo.png");background-repeat: no-repeat;background-size: cover;*/     
+        position: absolute;   
+        top: 50px;
+        left: 50px;
 }
 
-#menu {
-    float: left;
-    margin-bottom: 40px;
-    width: 150px;
+#logo div {       
+        margin-top: 6px;
+}
+ 
+#logo div img {
+        right: 0;
+        width: 145px;
+        height: 145px;
+}
+ 
+
+#entidad{
+         top: 150px;
+         text-align: right;
 }
 
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#menu{
+        height:50px;
+        border-radius: 15px;
 }
 
-#menu ul li{
-    margin: 2px;
+/*
+#siteNav{
+         border-radius: 15px;       
+}
+*/
+
+#contenidos{
+         margin: 10 0 10 0px;
+
 }
 
-#menu a, #menu a:visited {
-    text-decoration: none;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    display: block;
-    padding: 0 10px;
-    background: #3770A3;
-    border: 2px solid #2E5E90;
+
+#izquierda{
+        position: absolute;  
+        width: 300px; 
+        background-color: #999999; 
+        float:left;   
+        border-radius: 15px;
+        top: 400px;
+        left: -80px;       
 }
 
-#menu a:hover {
-    color: #FFA200; 
+#centro{
+        margin: 10px;
+        margin-left:310px; 
+        margin-right:310px;   
+        padding-left: 50px;   
+        top: 50px;
+        left: 50px;   
+        padding: 3px 10px;
+        border: PowderBlue 5px solid;      
+        background:#F47920;
+        border:solid 10px #ccc;
+        border-radius:15px;
+        box-shadow: inset 0px 0px 20px #818181;
+        /*
+  height:100px;
+  width:250 
+  */
+}
+
+#derecha{
+        width: 300px; 
+        float: right;   
+        font-size: 20px; 
+}
+
+.contenido-centro{
+        font-size: 18px;
+}
+
+
+.contador{ 
+    position: absolute;   
+        top: 200px;
+        left: 200px;       
+}
+
+
+#pie{
+        height:150%;
+        background-color:#0000FF;
+        clear:both;
+        border-radius: 15px;
+}
+
+/*! Anime Counter (static) v1.0.0 */
+.anime-counter-static{font-size:16px;overflow:hidden;border-radius:3px;box-shadow:0 3px 1px -2px rgba(0,0,0,.75)}.anime-counter-static .counter{font-family:arial;text-align:center}.anime-counter-static::before{background-repeat:no-repeat;background-position:center;background-size:cover;background-color:transparent;content:"";display:block}.anime-text-counter-static{font-size:1.2em;background:#333;color:#fff;padding:.5rem 1rem;box-shadow:0 4px 8px rgba(0,0,0,.5);font-weight:700;border-left:4px solid #607D8B;min-width:100px}.white .anime-text-counter-static{background:#fcfcfc;color:#333}.anime-graph-counter-static{display:-webkit-box;display:-ms-flexbox;display:flex;padding:.25em;border-radius:4px;background:rgba(0,0,0,.8);-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.anime-graph-counter-static>span.digit{background:#212121!important;color:#fff;font-size:1.2em;padding:.5em .4em;margin:0 1px;border-radius:2px;position:relative;line-height:1;box-shadow:0 60px 60px -30px rgba(255,255,255,.1) inset,0 1px 1px 0 rgba(0,0,0,.5),0 1px 0 0 rgba(255,255,255,.15) inset;border:1px solid #181818;width:auto;height:auto;display:block}.anime-graph-counter-static>span.digit .blind-plate{position:absolute;width:100%;top:50%;display:block;border-top:1px solid rgba(0,0,0,.7);margin-top:-1px;left:0;border-bottom:1px solid rgba(255,255,255,.15);box-shadow:0 0 10px 0 rgba(0,0,0,.5);height:auto;opacity:1}.white .anime-graph-counter-static>span.digit{background:#fff!important;color:#666;border-color:rgba(0,0,0,.3);box-shadow:0 1px 1px 0 rgba(0,0,0,.5)}.white .anime-graph-counter-static>span.digit .blind-plate{box-shadow:0 0 10px 0 rgba(0,0,0,.25);border-top-color:rgba(0,0,0,.3)}@media screen and (max-width:780px){.anime-counter-static{font-size:12px}}
+/*Personalizar*/
+.anime-counter-static::before {
+    background-image: url(https://i.imgur.com/gpjh9Cg.gif); /*imagen*/
+    background-color: #050505; /*fondo de la imagen*/
+    height: 120px; /*altura de la imagen*/
+}
+.anime-counter-static .counter {
+    padding: .5em;/*relleno*/
+    background: #212121;/*color de fondo*/
 }

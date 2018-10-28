@@ -147,45 +147,35 @@
 
 			<!--- Espacio para los contenidos de la página"-->
 			<header id ="contenidos">
-            <!--- Para el nombre de la empresa"-->
-            <div id ="izquierda"> <!--- Columna 1 - Izquierdo -->
-               <section class="contenido-izquierdo">
-                  <header>
-                     <style type="text/css">
-                        iframe#calendar html, #calendar body{
-                         overflow:hidden
-                        }
-                        iframe#calendar{
-                         position:absolute;
-                         border:0;
-                         width:240px;
-                         height:230px
-                        }
-                        </style>
-                        <iframe id='calendar' src='about:blank' scrolling='no'></iframe>
-                        <script>
-                        var conf = {
-                            bgcolor: '#741826', //color del calendario
-                           start:   0, // 0:Domingo | 1:Lunes
-                           days:    "Lunes|Martes|Miercoles|Jueves|Viernes|Sabado|Domingo",
-                           months:  "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre",
-                           date:    "Ir al mes actual"
-                        }
-                        </script>
-                        <script src='https://cdn.rawgit.com/jmacuna/calendar-widget/master/create-calendar-iframe.js' type='text/javascript'></script>                       
-                  </header>
-
-                 
-						<div class="contador">
-							<h4>Número de visitantes-</h4>
-	                  			                    
-                  		</div>
-				
-                  			
-
-               </section>
-            </div>	
-
+				<!--- Para el nombre de la empresa"-->
+				<div id ="izquierda"> <!--- Columna 1 - Izquierdo -->
+					<section class="contenido-izquierdo">
+						<header>
+							<style type="text/css">
+								iframe#calendar html, #calendar body{
+								 overflow:hidden
+								}
+								iframe#calendar{
+								 position:absolute;
+								 border:0;
+								 width:240px;
+								 height:230px
+								}
+								</style>
+								<iframe id='calendar' src='about:blank' scrolling='no'></iframe>
+								<script>
+								var conf = {
+								    bgcolor: '#741826', //color del calendario
+								 	start:   0, // 0:Domingo | 1:Lunes
+								 	days:    "Lunes|Martes|Miercoles|Jueves|Viernes|Sabado|Domingo",
+								 	months:  "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre",
+								 	date:    "Ir al mes actual"
+								}
+								</script>
+								<script src='https://cdn.rawgit.com/jmacuna/calendar-widget/master/create-calendar-iframe.js' type='text/javascript'></script>
+						</header>
+					</section>
+				</div>
 
 				<div id ="derecha"> <!--- Columna 1 - Derecho -->
 					<section class="contenido-derecho">
@@ -207,8 +197,10 @@
 
 				<div id ="centro"><!--- Columna 2 - Centro -->
 					<section class="contenido-centro">
-						A través del presente OVI, se dará a conocer el tema de los Sistemas Gestores de Base de Datos, los cuales nos permiten poder gestionar, administrar las bases de datos, eso dependiente que cual SGBD se este trabajando.
-					</section>					
+						Identificar los componentes que hacen parte de un diagrama ER, el cual es la base para una base de datos robusta y que preste una buena funcionalidad.
+
+						En esta sección hablaremos de cómo podemos crear el diagrama entidad relación, lo cual comprende las tablas y sus relaciones para comunicarse entre tablas o entidades a través de los campos denominados claves primarias y foráneas.
+					</section>
 				</div>
 				
 			</header>

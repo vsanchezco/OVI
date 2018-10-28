@@ -1,85 +1,272 @@
 <!DOCTYPE html>
-	<html>
+<html>
+   <head>
+      <!--- Información oculta de la página"-->
+      <title>OVI UNIDAD 2. DISEÑOS DE SITIOS WEB</title>
+      <meta name="description" content="OVI Unad"/>
+      <meta name="keywords" content= "OVI, Unad, SGBD, Html, Css3"/> 
+      <meta name="author" content="Virley Sánchez Córdoba - UNAD - 2018"/>     
+      <meta http-equiv="content-type" content="text/html;  charset=utf-8"/>
+      <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+      <link rel="stylesheet" type="text/css" href="css/menu-nav.css"/>
+      <link rel="stylesheet" type="text/css" href="css/estilo-movimiento-h.css"> 
+      <!--- Optimizado para diferentes dispositivos -->
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+      <script type="text/javascript" src="js/modernizr-3.6.0.min.js"></script>
+      <script type="text/javascript" src="js/slideshow.js"></script>
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+   </head>
+   
+   <!--- Espacio body para el contenido de la página"-->
+   <body>
+      <div id="entidad">
+               <h2>Universidad Nacional Abierta y a Distancia - UNAD</h2>
+       </div>  
+       <article class="contenido">
+         <div class="presentacion">       
+         <!--- Espacio para la presentación y el contenedor del slide"-->
+            <div class ="contenedor">              
+                  <div class="slide">
+                     <a href="img/img1.jpg">
+                          <img src="img/img1.jpg" title="AccesIT Plataforma..." alt="AccesIT Plataforma..." width="600px">
+                          <div class="infoslide">AccesIT Plataforma...</div>
+                        </a>
+                  </div>
 
-<!--- cabecera -->
-<head>
-		<head>
-		<meta name="description" content="OVI Unad" />
-		<meta name="keywords" content= "OVI Unad" />
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
-		<link rel="stylesheet" type="text/css" href="...css/base.css" />
-		<link rel="stylesheet" type="text/css" href="...css/content.css" />
-		<link rel="stylesheet" type="text/css" href="...css/nav.css" />
-		<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-		<title>OVI UNIDAD 2. DISEÑOS DE SITIOS WEB </title>
+                  <div class="slide">
+                     <a href="img/img2.jpg">
+                          <img src="img/img2.jpg" title="Prácticas de Laboratorio" alt="Prácticas de Laboratorio" width="600px">
+                          <div class="info">Prácticas de Laboratorio</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img3.jpg">
+                          <img src="img/img3.jpg" title="Calendario Académico" alt="Calendario Académico" width="600px">
+                          <div class="infoslide">Calendario Académico</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img4.png">
+                          <img src="img/img4.png" title="Alianza en pro de la Educación" alt="Alianza en pro de la Educación" width="600px">
+                          <div class="infoslide">Alianza en pro de la Educación</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img5.jpg">
+                          <img src="img/img5.jpg" title="Office 365" alt="Office 365" width="600px">
+                          <div class="infoslide">Office 365</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img6.jpg">
+                          <img src="img/img6.jpg" title="Previene el Plagio" alt="Previene el Plagio" width="600px">
+                          <div class="infoslide">Previene el Plagio</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img7.png">
+                          <img src="img/img7.png" title="Familia Unadista" alt="Familia Unadista" width="600px">
+                          <div class="infoslide">Familia Unadista</div>
+                      </a>
+                  </div>
+
+                  <div class="slide">
+                     <a href="img/img8.png">
+                          <img src="img/img8.png" title="Material de Estudio" alt="Material de Estudio" width="600px">
+                          <div class="infoslide">Material de Estudio</div>
+                      </a>
+                  </div>               
+            </div>                  
+         </div>
+      </article>
+         <!--- Espacio para el cabecera con información de la empresa"-->
+         <header id ="cabecera">
+            <!--- Para el nombre del tema"-->
+            <div id="titulocabecera">
+               <h1>FASE DE CONSTRUCCIÓN - CREAR UN OVI</h1>
+            </div>   
+            <!--- Para el logo de la empresa"-->
+            <div id="logo">
+               <div><img src="img/logo.png"></div>
+               <!--- <img src="img/logo.png" width="200px" height="200px">--> 
+            </div>
+            <!--- Para el nombre de la empresa"-->
+            <!---
+            <div id="entidad">
+               <h2>Universidad Nacional Abierta y a Distancia - UNAD</h2>
+            </div>      -->
+         </header>
+
+         <!--- Espacio para el menu de navegación"-->
+         <div id ="menu">
+            <!-- <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>-->
+            <!-- <div id="header" ><div id="headerContent">FASE DE CONSTRUCCIÓN - CREAR UN OVI</div> -->
+            <div id="siteNav"> 
+            <header>
+               <nav>
+                     <li id="active"><a href="index.html" class="active daddy main-node">Inicio</a></li>
+                     <li><a href="" class="daddy">Sistemas gestores de bases de datos SGBD</a>
+                        <ul class="other-section">
+                           <li><a href="conceptos.html" class="no-ch">Conceptos Básicos</a></li>
+                           <li><a href="conceptos_basicos_video.html" class="no-ch">Vídeo Sobre Conceptos Básicos SGBD</a></li>
+                        </ul>
+                     </li>
+
+                     <li><a href="" class="daddy">Diagrama Entidad - Relación</a>
+                        <ul class="other-section">
+                           <li><a href="diagrama-er.html" class="no-ch">Contenido Diagrama Entidad - Relación</a></li>
+                             <li><a href="diagrama-er_video.html" class="no-ch">Vídeo sobre Diagrama Entidad Relación</a></li>
+                        </ul>
+                     </li>
+
+                     <li><a href="" class="daddy">Lenguajes SGBD</a>
+                        <ul class="other-section">
+                           <li><a href="lenguaje_ldd.html" class="no-ch">Lenguaje de definición de datos  (LDD)</a></li>
+                           <li><a href="lenguaje_lmd.html" class="no-ch">Lenguaje de manejo de datos (LMD)</a></li>
+                           <li><a href="lenguade_ldd_lmd_video.html" class="no-ch">Vídeo sobre lenguaje LDD y LMD</a></li>     
+                        </ul>
+                     </li>  
+                     </nav>
+            </header>
+         </div>
 
 
-</head>
+
+         <!--- Espacio para los contenidos de la página"-->
+         <header id ="contenidos">
+            <!--- Para el nombre de la empresa"-->
+            <div id ="izquierda"> <!--- Columna 1 - Izquierdo -->
+               <section class="contenido-izquierdo">
+                  <header>
+                     <style type="text/css">
+                        iframe#calendar html, #calendar body{
+                         overflow:hidden
+                        }
+                        iframe#calendar{
+                         position:absolute;
+                         border:0;
+                         width:240px;
+                         height:230px
+                        }
+                        </style>
+                        <iframe id='calendar' src='about:blank' scrolling='no'></iframe>
+                        <script>
+                        var conf = {
+                            bgcolor: '#741826', //color del calendario
+                           start:   0, // 0:Domingo | 1:Lunes
+                           days:    "Lunes|Martes|Miercoles|Jueves|Viernes|Sabado|Domingo",
+                           months:  "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre",
+                           date:    "Ir al mes actual"
+                        }
+                        </script>
+                        <script src='https://cdn.rawgit.com/jmacuna/calendar-widget/master/create-calendar-iframe.js' type='text/javascript'></script>
+                  </header>
+               </section>
+            </div>
+
+            <div id ="derecha"> <!--- Columna 1 - Derecho -->
+               <section class="contenido-derecho">
+                  <h3>Enlaces de interes</h3>
+                  <p>   
+                     Para conocer más acerca de los sistemas gestores de bases de datos, podemos visitar la siguiente página. <a href="https://www.ecured.cu/SGBD" target="_blank" style="color:#0000FF;">Más</a>
+                  </p>
+
+                  <p>   
+                     Otro enlace que pueden ser de interés sobre sistemas gestores de bases de datos, podemos visitar la siguiente página. <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" style="color:#0000FF;">Más</a>
+                  </p>
+
+                  <p>   
+                     Otros más con diferentes sistema gestores de base de datos, podemos visitar la siguiente página. <a href="https://revistadigital.inesem.es/informatica-y-tics/los-gestores-de-bases-de-datos-mas-usados/" target="_blank" style="color:#0000FF;">Más</a>
+                  </p>
+
+               </section>
+            </div>
+
+            <div id ="centro"><!--- Columna 2 - Centro -->
+               <section class="contenido-centro">
+                  <h3>SGBD. Modelo entidad-interrelación. Conceptos básicos</h3>
+                  <h2>El modelo entidad-interrelación</h2>
+                  <p>
+                     El modelo de datos entidad-interrelación (E-R), también llamado entidad-relación, fue propuesto por Peter Chen en 1976 para la representación conceptual de los problemas del mundo real. En 1988, el ANSI lo seleccionó como modelo estándar para los sistemas de diccionarios de recursos de información. Es un modelo muy extendido y potente para la representación de los datos. Se simboliza haciendo uso de grafos y de tablas. Propone el uso de tablas bidimensionales para la representación de los datos y sus relaciones.
+                  </p>  
+
+                  <h3>Conceptos básicos</h3>
+                  <h2>Entidad</h2>
+                  <p>
+                     El modelo de datos entidad-interrelación (E-R), también llamado entidad-relación, fue propuesto por Peter Chen en 1976 para la representación conceptual de los problemas del mundo real. En 1988, el ANSI lo seleccionó como modelo estándar para los sistemas de diccionarios de recursos de información. Es un modelo muy extendido y potente para la representación de los datos. Se simboliza haciendo uso de grafos y de tablas. Propone el uso de tablas bidimensionales para la representación de los datos y sus relaciones.
+                  </p> 
+
+                   <h2>Conjunto de entidades</h2>
+                  <p>
+                     Es un grupo de entidades del mismo tipo, por ejemplo, el conjunto de entidades cliente. Los conjuntos de entidades no necesitan ser disjuntos, se puede definir los conjuntos de entidades de empleados y clientes de un banco, pudiendo existir una persona en ambas o ninguna de las dos cosas.
+                  </p> 
+
+                   <h2>Entidad fuerte</h2>
+                  <p>
+                     Es aquella que no depende de otra entidad para su existencia. Por ejemplo, la entidad ALUMNO es fuerte pues no depende de otra para existir, en cambio, la entidad NOTAS es una entidad débil pues necesita a la entidad ALUMNO para existir. Las entidades débiles se relacionan con la entidad fuerte con una relación uno a varios. Se representan con un rectángulo con un borde doble.
+                  </p> 
+
+                   <h2>Atributos o campos</h2>
+                  <p>
+                     Son las unidades de información que describen propiedades de las entidades. Por ejemplo, la entidad ALUMNO posee los atributos: número de matrícula, nombre, dirección, población y teléfono. Los atributos toman valores, por ejemplo, el atributo población puede ser ALCALÁ, GUADALAJARA, etcétera. Se representan mediante una elipse con el nombre en su interior.
+                  </p> 
+
+                   <h2>Dominio</h2>
+                  <p>
+                     Es el conjunto de valores permitido para cada atributo. Por ejemplo el dominio del atributo nombre puede ser el conjunto de cadenas de texto de una longitud determinada.
+                  </p> 
+
+                   <h2>Identificador o superclave</h2>
+                  <p>
+                     Es el conjunto de atributos que identifican de forma única a cada entidad. Por ejemplo, la entidad EMPLEADO, con los atributos Número de la Seguridad Social, DNI, Nombre, Dirección, Fecha nacimiento y Tlf, podrían ser identificadores o superclaves los conjuntos Nombre, Dirección, Fecha nacimiento y Tlf, o también DNI, Nombre y Dirección, o también Num Seg Social, Nombre, Dirección y Tlf, o solos el DNI y el Número de la Seguridad Social.
+                  </p> 
+
+                   <h2>Clave candidata</h2>
+                  <p>
+                     Es cada una de las superclaves formadas por el mínimo número de campos posibles. En el ejemplo anterior, son el DNI y el Número de la Seguridad Social.
+                  </p> 
+
+                  <h2>Clave primaria o principal (primary key)</h2>
+                  <p>
+                     Es la clave candidata seleccionada por el diseñador de la BD. Una clave candidata no puede contener valores nulos, ha de ser sencilla de crear y no ha de variar con el tiempo. El atributo o los atributos que forman esta clave se representan subrayados.
+                  </p> 
+
+                  <h2>Clave ajena o foránea (foreign key)</h2>
+                  <p>
+                     Es el atributo o conjunto de atributos de una entidad que forman la clave primaria en otra entidad. Las claves ajenas van a representar las relaciones entre tablas. Por ejemplo, si tenemos por un lado, las entidades ARTÍCULOS, con los atributos código de artículo (clave primaria), denominación, stock. Y, por otro lado, VENTAS, con los atributos Código de venta (clave primaria), fecha de venta, código de artículo, unidades vendidas, el código de artículo es clave ajena pues está como clave primaria en la entidad ARTÍCULOS.
+                  </p> 
+                 
+                  <p style="text-align: justify;"><span>Mailxmail.com. Recuperado de <a href="http://www.mailxmail.com/curso-sistemas-bases-datos/sgbd-modelo-entidad-interrelacion-conceptos-basicos"target="_blank" style="color:#0000FF;">http://www.mailxmail.com/curso-sistemas-bases-datos/sgbd-modelo-entidad-interrelacion-conceptos-basicos</a></span></p>
+                  <p style="text-align: justify;"></p>
 
 
-<!--- Cuerpo -->
-<body>
- 
-<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
-<div id="content">
-<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header" ><div id="headerContent">FASE DE CONSTRUCCIÓN - CREAR UN OVI</div></div>
-<div id="siteNav">
-
-<header>
-
-<nav>
-   <li id="active"><a href="index.html" class="active daddy main-node">Inicio</a></li>
-   <li><a href="material_de_lectura_ovi.html" class="daddy">Sistemas gestores de bases de datos SGBD</a>
-   <ul class="other-section">
-      <li><a href="conceptos.html" class="no-ch">Conceptos Básicos</a></li>
-      <li><a href="conceptos_basicos_video.html" class="no-ch">Vídeo Sobre Conceptos Básicos SGBD</a></li>
-   </ul>
-   </li>
-
-   <li><a href="material_multimedial_ovi.html" class="daddy">Diagrama Entidad - Relación</a>
-   <ul class="other-section">
-      <li><a href="vdeo_instalacin_sublimetext_2.html" class="no-ch">Contenido Diagrama Entidad - Relación</a></li>
-   <li><a href="vdeo_head_y_libreras_de_apoyo_parte1.html" class="no-ch">Vídeo sobre Diagrama Entidad Relación</a></li>
-   </ul>
-   </li>
-   </ul>
-
-   <li><a href="material_multimedial_ovi.html" class="daddy">Lenguajes SGBD</a>
-   <ul class="other-section">
-      <li><a href="vdeo_instalacin_sublimetext_2.html" class="no-ch">Lenguaje de definición de datos  (LDD)</a></li>
-      <li><a href="vdeo_head_y_libreras_de_apoyo_parte1.html" class="no-ch">Lenguaje de manejo de datos (LMD)</a></li>
-      <li><a href="vdeo_head_y_libreras_de_apoyo_parte2.html" class="no-ch">Vídeo sobre lenguaje LDD y LMD</a></li>     
-   </ul>
-   </li>
-   </ul>
-
-</nav>
-
-</div>
-
-</header>
-
-<footer id= "piepagina">
-      <h3>Desarrollo de OVI, sobre Sistema Gestor de Base de Datos</h3>
-      <h4>Desarrollado por Virley Sánchez Córdoba</h4>
-      <h4>Universidad Nacional Abierta y a Distancia UNAD</h4>
-      <small>Rivera - Huila - Octubre de 2018</small>
-</footer>
+ <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" style="color:#0000FF;">Más</a>
 
 
 
+               </section>
+            </div>
+            
+         </header>
 
+         <div id ="pie">
+            <h3>Desarrollo de OVI, sobre Sistema Gestor de Base de Datos</h3>
+            <h4>Desarrollado por Virley Sánchez Córdoba</h4>
+            <h4>Universidad Nacional Abierta y a Distancia UNAD</h4>
+            <small>Rivera - Huila - Octubre de 2018</small>
+         </div>
+      </div>
 
-
-
-
-
-
-
+      <script type="text/javascript">
+         slideshow_horizontal();             
+      </script>
 
    </body>
-
-
-	</html>
+</html>

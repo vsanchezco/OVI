@@ -1,0 +1,157 @@
+/* 
+    Document:       estilo.css    
+    Autor:          Virley Sánchez Córdoba
+    Description:    Hoja de estilos basica para el OVI
+*/
+
+body{
+    width: 1200px;
+    /*height: 800px;*/
+    margin: 0 auto;
+    position: relative;
+    background-color::#28b463;
+}
+
+.presentacion {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin: 30px auto;
+    background: #ccc;
+    border: 2px solid #FFA800;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #FFA800;
+    overflow: hidden;
+}
+
+.contenedor {
+   
+
+    position: relative;
+    height: 200px;
+    word-spacing: -1em;*/
+
+}
+
+.contenedor:hover .info{
+    color: #FFA800;
+    box-shadow: 0 0 1px 1px #FFA800;
+}
+
+
+.horizontal .slide {
+    display: inline-block;
+}
+
+.slide{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    /*float: right; Para que se mueva a la derecha*/}
+
+img {
+    width: 600px;
+    height: 200px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 160px;
+    background: rgba(80, 80, 180, 0.5);
+    border-bottom: 1px solid #FFA800;
+    border-top: 1px solid #FFA800;
+    height: 20px;
+    width: 100%;
+    padding: 5px 0;
+    transition: color 1s;
+    word-spacing: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#cabecera {
+    color: #2E5E90;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    margin: 10px 0 0;
+    padding: 10px;
+    background: #FFA800;
+    box-shadow: 0 2px 2px 2px #2E5E90;
+}
+
+#logo {
+    clear: left;
+    color: #2E5E90;
+    text-align: center;
+    padding: 10px;
+    background: #FFA800;
+    box-shadow: 0 -2px 2px 2px #2E5E90;
+}
+
+
+#entidad{
+
+
+}
+
+#pie {
+    clear: left;
+    color: #2E5E90;
+    text-align: center;
+    padding: 10px;
+    background: #FFA800;
+    box-shadow: 0 -2px 2px 2px #2E5E90;
+}
+
+#pie a, #pie a:visited {
+    text-decoration: none;
+    color: #2E5E90;
+}
+#pie a:hover {
+    color: #fff;
+}
+
+
+.contenido{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    /*background: #386695;*/
+    margin: 5px 0;
+}
+
+#menu {
+    float: left;
+    margin-bottom: 40px;
+    width: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    margin: 2px;
+}
+
+#menu a, #menu a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    display: block;
+    padding: 0 10px;
+    background: #3770A3;
+    border: 2px solid #2E5E90;
+}
+
+#menu a:hover {
+    color: #FFA200; 
+}
+
