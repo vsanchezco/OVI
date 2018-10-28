@@ -109,10 +109,11 @@ body{
 
 
 #pie{
-        height:150%;
+        height:300%;
         background-color:#0000FF;
         clear:both;
         border-radius: 15px;
+        color:  #fdfefe;
 }
 
 /*! Anime Counter (static) v1.0.0 */

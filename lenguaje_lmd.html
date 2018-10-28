@@ -197,7 +197,29 @@
 
         <div id ="centro"><!--- Columna 2 - Centro -->
           <section class="contenido-centro">
-            A través del presente OVI, se dará a conocer el tema de los Sistemas Gestores de Base de Datos, los cuales nos permiten poder gestionar, administrar las bases de datos, eso dependiente que cual SGBD se este trabajando.
+            <h3>Lenguajes SGBD</h3>
+            Conocer los tipos de diferencia y usos de cada uno de los tipos de lenguaje, para este caso se estudiará, el lenguaje de definición de datos más conocido por sus siglas como LLD y del lenguaje de manejo de datos LMD.
+
+            En esta sección hablaremos de las formad de manipular nuestras bases de datos a través de los lenguajes que dispone el SGBD, como lo son: LLD y LMD.
+
+            <h2>Lenguaje de manejo de datos (LMD)</h2>
+                      <p>
+                        Una vez creados los esquemas de la base de datos, los usuarios necesitan un lenguaje que les permita manipular los datos de la base de datos: realizar consultas, inserciones, eliminaciones y modificaciones. Este lenguaje es el que se denomina lenguaje de manejo de datos (LMD).
+
+              Hay dos tipos de LMD: los procedurales y los no procedurales. Con un LMD procedural el usuario (normalmente será un programador) especifica qué datos se necesitan y cómo hay que obtenerlos. Esto quiere decir que el usuario debe especificar todas las operaciones de acceso a datos llamando a los procedimientos necesarios para obtener la información requerida. Estos lenguajes acceden a un registro, lo procesan y basándose en los resultados obtenidos, acceden a otro registro, que también deben procesar. Así se va accediendo a registros y se van procesando hasta que se obtienen los datos deseados. Las sentencias de un LMD procedural deben estar embebidas en un lenguaje de alto nivel, ya que se necesitan sus estructuras (bucles, condicionales, etc.) para obtener y procesar cada registro individual. A este lenguaje se le denomina lenguaje anfitrión. Las bases de datos jerárquicas y de red utilizan LMD procedurales.
+
+              Un LMD no procedural se puede utilizar de manera independiente para especificar operaciones complejas sobre la base de datos de forma concisa. En muchos SGBD se pueden introducir interactivamente instrucciones del LMD desde un terminal o bien embeberlas en un lenguaje de programación de alto nivel.
+
+              Los LMD no procedurales permiten especificar los datos a obtener en una consulta o los datos que se deben actualizar, mediante una sola y sencilla sentencia. El usuario o programador especifica qué datos quiere obtener sin decir cómo se debe acceder a ellos. El SGBD traduce las sentencias del LMD en uno o varios procedimientos que manipulan los conjuntos de registros necesarios. Esto libera al usuario de tener que conocer cuál es la estructura física de los datos y qué algoritmos se deben utilizar para acceder a ellos. A los LMD no procedurales también se les denomina declarativos. Las bases de datos relacionales utilizan LMD no procedurales, como SQL (Structured Query Language) o QBE (Query-By-Example). Los lenguajes no procedurales son más fáciles de aprender y de usar que los procedurales, y el usuario debe realizar menos trabajo, siendo el SGBD quien hace la mayor parte.
+
+              La parte de los LMD no procedurales que realiza la obtención de datos es lo que se denomina un lenguaje de consultas. En general, las órdenes tanto de obtención como de actualización de datos de un LMD no procedural se pueden utilizar interactivamente, por lo que al conjunto completo de sentencias del LMD se le denomina lenguaje de consultas, aunque es técnicamente incorrecto.
+                      </p>  
+
+                        <p style="text-align: justify;"><span>Blog de Leonardo y Alexis. (2011 Agosto 8) Recuperado de <a href="http://basededatosleoyalex.blogspot.com/2011/08/ldd-y-lmd.html"target="_blank" style="color:#0000FF;">http://basededatosleoyalex.blogspot.com/2011/08/ldd-y-lmd.html</a></span></p>
+                        <p style="text-align: justify;"></p>
+
+
+
           </section>
         </div>
         
